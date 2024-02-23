@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Web Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?familt=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <h2 style="width: 125px;">Red Store</h2>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="http://">Home</a></li>
+                        <li><a href="http://">Products</a></li>
+                        <li><a href="http://">About</a></li>
+                        <li><a href="http://">Contect US</a></li>
+                        <li><a href="http://">About</a></li>
+                    </ul>
+                </nav>
+                <img src="icons\shopping-bag.png" alt="cart" width="30px" height="30px">
+                <img src="icons\menu.png" alt="menu" width="30px" height="30px" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Welcome To Shopping</h1>
+                    <p>Welcome to the shopping wonderland, where every aisle holds the promise of a new adventure in style!</p>
+                    <a href="" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="Images/front.png" alt="Error">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------ Featured Categories ------>
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="Watch\black_watch1.jpg" alt="Error" height="413px">
+                </div>
+                <div class="col-3">
+                    <img src="Shoes\shoes01.jpg" alt="Error">
+                </div>
+                <div class="col-3">
+                    <img src="T-shirt Images\5.jpg" alt="Error" height="413px">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------ Featured Product ------>
+    <div class="small-container">
+        <h2 class="title">Featured Product</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="T-shirt Images\1.jpg" alt="Error">
+                <h4>White design A|X</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$25.99</p>
+            </div>
+            <div class="col-4">
+                <img src="T-shirt Images\2.jpg" alt="Error">
+                <h4>A|X Green flowers</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$27.29</p>
+            </div>
+            <div class="col-4">
+                <img src="T-shirt Images\3.jpg" alt="Error">
+                <h4>Blue A|X design T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$27.75</p>
+            </div>
+            <div class="col-4">
+                <img src="T-shirt Images\4.jpg" alt="Error">
+                <h4>A|X Yello Design T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$23.95</p>
+            </div>
+        </div>
+
+<!-- ---------- letest Products ---------- -->
+
+        <h2 class="title">Latest Product</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="T-shirt Images\6.jpg" alt="Error">
+                <h4>Gray Design T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$25.99</p>
+            </div>
+            <div class="col-4">
+                <img src="T-shirt Images\8.jpg" alt="Error">
+                <h4>White A|X Design T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.39</p>
+            </div>
+            <div class="col-4">
+                <img src="T-shirt Images\9.jpg" alt="Error">
+                <h4>Eagle Blue Design T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$27.75</p>
+            </div>
+            <div class="col-4">
+                <img src="T-shirt Images\10.jpg" alt="Error">
+                <h4>Brown Eagle T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$30.95</p>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="Shoes\shoes02.jpg" alt="Error">
+                    <h4>Puma White Shoes</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$48.20</p>
+                </div>
+                <div class="col-4">
+                    <img src="Watch\silver-watch.jpg" alt="Error">
+                    <h4>Silver Strap Watch</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$39.59</p>
+                </div>
+                <div class="col-4">
+                    <img src="Shoes\shoes03.jpg" alt="Error">
+                    <h4>Puma Black Shoes</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$43.72</p>
+                </div>
+                <div class="col-4">
+                    <img src="Watch\silver-gold-watch.jpg" alt="Error">
+                    <h4>Goden & Silver Watch</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$30.95</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------ offer ------ -->
+
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img class="offer-img" src="T-shirt Images\j1.jpg" alt="Error">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on RedStore</p>
+                    <h1>USA Men Black Jacket With Hood</h1>
+                    <small>Stay motivated to workout through the colder part of the year with the JUMP USA Men's Training Jacket. The Rapid Dry and Anti Microbial technology fight sweat and body odor while the high neck and sleeves keep you protected from the cold.</small>
+                    <a href="" class="btn">Buy Now&#8594;
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------ testimotial ------ -->
+
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, error voluptas quasi
+                        praesentium mollitia aliquam ad consectetur doloribus, fugiat, temporibus cum odit vero amet
+                        impedit?</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="Commenters/man1.jpg" alt="Error">
+                    <h3>Sean Parker</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, error voluptas quasi
+                        praesentium mollitia aliquam ad consectetur doloribus, fugiat, temporibus cum odit vero amet
+                        impedit?</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="Commenters/girl_peple.jpg" alt="Erorr">
+                    <h3>Sean Parker</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, error voluptas quasi
+                        praesentium mollitia aliquam ad consectetur doloribus, fugiat, temporibus cum odit vero amet
+                        impedit?</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="Commenters/people.jpeg" alt="Erorr">
+                    <h3>Sean Parker</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------- Brands ------- -->
+
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="logo\nike2.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="logo/fastrack-logo.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="logo/Puma-Logo.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="logo/titan-watch-logo.webp" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="logo/lac1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------- Footer --------- -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Downloand Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="logo/playstore-logo.png" alt="play store">
+                        <img src="logo/appstore-logo.png" alt="apple store">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="logo/Red.png" alt="">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sporsts Accessible to the Many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us </h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twiter</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2024 - Red store</p>
+        </div>
+    </div>
+
+<!-- ---------- js for toggle menu ---------- -->
+
+<script>
+    var MenuIntems = document.getElementById("MneuItems");
+    MenuIntems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuIntems.style.maxHeight == "0px"){
+            MenuIntems.style.maxHeight = "200px";
+        }
+        else{
+            MenuIntems.style.maxHeight = "0px";
+        }
+    }
+
+</script>
+
+</body>
+</html>
